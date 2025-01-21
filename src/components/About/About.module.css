@@ -27,6 +27,10 @@
 
 .aboutImage {
   width: 35%;
+  animation-name: riding;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
 .aboutItems {
@@ -64,6 +68,17 @@
 
 .aboutItem p {
   font-size: 25px;
+}
+@keyframes riding {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(5px, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
 }
 
 @media screen and (max-width: 830px) {
