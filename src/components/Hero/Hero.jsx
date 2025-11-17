@@ -10,14 +10,14 @@ export const Hero = () => {
 
   useEffect(() => {
     const typedTitle = new Typed(titleRef.current, {
-      strings: ["Hi, I'm Sten"],
+      strings: ["Welcome to the Multiverse of Rick and Morty"],
       typeSpeed: 30,
       startDelay: 100,
       showCursor: false,
       onComplete: () => {
         new Typed(descriptionRef.current, {
           strings: [
-            "I'm a front-end developer with 1 year of experience using React and JavaScript. Reach out if you'd like to learn more!",
+            "join Rick and Morty as they travel through infinite universes, encounter bizarre creatures, and embark on mind-bending adventures.",
           ],
           typeSpeed: 17.5,
           startDelay: 400,
@@ -36,12 +36,12 @@ export const Hero = () => {
         <h1 className={styles.title} ref={titleRef}></h1>
         <p className={styles.description} ref={descriptionRef}></p>
         <a href="mailto:stenlohvart402@gmail.com" className={styles.contactBtn}>
-          Contact Me
+          Contact
         </a>
       </div>
       <img
-        src={getImageUrl("hero/heroImage.png")}
-        alt="Hero image of me"
+        src={getImageUrl("hero/HeroImage.jpg")}
+        alt="Hero image"
         className={styles.heroImg}
       />
       <div className={styles.topBlur} />

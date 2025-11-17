@@ -9,7 +9,7 @@ export const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
-        My Portfolio
+        Rick & Morty
       </a>
       <div className={styles.menu}>
         <img
@@ -27,10 +27,10 @@ export const Navbar = () => {
           onClick={() => setMenuOpen(false)}
         >
           <li>
-            <a href="#about">About</a>
+            <a href="#about">Characters</a>
           </li>
           <li>
-            <a href="#experience">Skills</a>
+            <a href="#experience">Episodes</a>
           </li>
           <li>
             <a href="#contact">Contact</a>

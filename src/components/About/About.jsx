@@ -6,7 +6,7 @@ import { getImageUrl } from "../../utils";
 export const About = () => {
   return (
     <section className={styles.container} id="about">
-      <h2 className={styles.title}>About</h2>
+      <h2 className={styles.title}>HEROES</h2>
       <div className={styles.content}>
         <img
           src={getImageUrl("about/aboutImage.png")}
@@ -15,32 +15,41 @@ export const About = () => {
         />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
+            <img src={getImageUrl("about/rick.png")} alt="Rick Sanchez"  style={{
+    width: "100px",
+    height: "100px",
+    objectFit: "contain"
+  }}/>
             <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
+              <h3>Rick Sanchez</h3>
               <p>
-                I’m a frontend developer skilled in creating responsive and
-                high-performance websites.
+              Brilliant but chaotic scientist who drags everyone into wild interdimensional adventures.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/uiIcon.png")} alt="UI icon" />
+            <img src={getImageUrl("about/morty.png")} alt="Morty Smith"  style={{
+    width: "100px",
+    height: "100px",
+    objectFit: "contain"
+  }}/>
             <div className={styles.aboutItemText}>
-              <h3>UI/UX experience</h3>
+              <h3>Morty Smith</h3>
               <p>
-                I have experience designing landing pages, creating logos, and
-                working on UI elements using Adobe tools and Figma.
+              Anxious yet kind-hearted teen who often becomes the moral compass of the duo.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
+            <img src={getImageUrl("about/summer.png")} alt="Summer Smith"  style={{
+    width: "100px",
+    height: "100px",
+    objectFit: "contain"
+  }}/>
             <div className={styles.aboutItemText}>
-              <h3>Other experience</h3>
+              <h3>Summer Smith</h3>
               <p>
-                I have experience working with APIs, managing databases like
-                MySQL, and using Git for version control.
+              Confident and bold sister who proves she’s just as capable on every crazy mission.
               </p>
             </div>
           </li>

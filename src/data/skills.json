@@ -1,38 +1,38 @@
 [
   {
-    "title": "HTML",
-    "imageSrc": "skills/html.png"
+    "title": "S1E1",
+    "imageSrc": "skills/R&M.png"
   },
   {
-    "title": "CSS",
-    "imageSrc": "skills/css.png"
+    "title": "S1E2",
+    "imageSrc": "skills/R&M.png"
   },
   {
-    "title": "JS",
-    "imageSrc": "skills/js.png"
+    "title": "S1E3",
+    "imageSrc": "skills/R&M.png"
   },
   {
-    "title": "React",
-    "imageSrc": "skills/react.png"
+    "title": "S1E4",
+    "imageSrc": "skills/R&M.png"
   },
   {
-    "title": "Figma",
-    "imageSrc": "skills/figma.png"
+    "title": "S1E5",
+    "imageSrc": "skills/R&M.png"
   },
   {
-    "title": "Illustrator",
-    "imageSrc": "skills/ill.png"
+    "title": "S1E6",
+    "imageSrc": "skills/R&M.png"
   },
   {
-    "title": "GitHub",
-    "imageSrc": "skills/github.png"
+    "title": "S1E7",
+    "imageSrc": "skills/R&M.png"
   },
   {
-    "title": "Git",
-    "imageSrc": "skills/Git.png"
+    "title": "S1E8",
+    "imageSrc": "skills/R&M.png"
   },
   {
-    "title": "mySql",
-    "imageSrc": "skills/mySql.png"
+    "title": "S1E9",
+    "imageSrc": "skills/R&M.png"
   }
 ]
